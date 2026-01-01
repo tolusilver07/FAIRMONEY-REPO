@@ -1,0 +1,322 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        .con{ 
+            display: flex;
+            width: 100%;
+        
+            height: 100%;
+        }
+        .sec1{
+            background-color: white; 
+            width: 20%;  
+            height: auto;     
+        
+        }
+        
+        .sec2{
+            width: 80%;
+            display: flex;
+            padding-inline: 1.5em;
+            flex-direction: column;
+flex-direction: column;
+
+        }
+.logo,.logout{
+    width: 100%;
+    height: 15%;
+    
+}
+.logo{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    border-bottom: .5px solid rgba(128, 128, 128, 0.537);
+    
+}
+.logo h4{
+    margin-left: .5em;
+}
+.logo span{
+    color: forestgreen;
+}
+.side-contents{
+    width: 100%;
+    padding-top: 3em;
+    height: 75%;
+    text-transform: capitalize;
+    
+}
+.side-contents ul,.logout ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 1em;
+    text-transform: capitalize;
+    
+}
+ul li{
+    font-size: .9rem;
+}
+.payment-top{
+    display: flex;
+    margin-block:1em ;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+.payment-top h3{
+    text-transform: capitalize;
+}
+.payment-middle{
+    display: flex;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+    gap: 3em;
+    
+    
+}
+.payment-bank{
+display: flex;
+flex-direction: column;
+}
+.payment-send,.payment-bill{
+    display: flex;
+    gap: .5em;
+    flex-direction: column;
+    
+
+}
+.payment-send p,.payment-bill p{
+    font-size: small;
+    color: rgba(128, 128, 128, 0.532);
+}
+
+.payment-last{
+    margin-block:1.5em;
+    display: flex;
+    margin-left: 1em;
+    flex-wrap: wrap;
+    gap: 3em;
+    width: 100%;
+
+
+}
+.pay{
+    color: rgb(76, 21, 147);
+    font-weight: 900;
+}
+.mode-profile ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+/* overview */
+
+.name{
+    width: auto;
+}
+.overview-add-money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.overview-text{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    margin-bottom: 1em;
+}
+
+.add-money{
+    display: flex;
+    gap: 1em;
+}
+.add-money a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 10rem;
+    padding: .5em 1em;
+    border-radius: .5rem;
+}
+.add-money .make-pay{
+    color: black;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.413);
+}
+
+.loan-save-box{
+    margin-top: 1em;
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+}
+
+.view-box{
+    width: 20rem;
+    height: 7.5rem;
+    padding: 1em;
+    border-radius: .5em;
+    background-color:black ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box-two{
+    background-color: rgb(20, 117, 20);
+}
+.box-three{
+    background-color: rgb(3, 91, 214);
+}
+.repayment-con{
+    margin-block: 2em;
+    display: flex;
+    gap: 1em;
+    
+}
+.repay{
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 1em;
+    border-radius: .5em;
+     background-color:rgba(144, 238, 144, 0.416);
+    border: 1px solid lightgreen;
+
+}
+.repay-text{
+    display: flex;
+    gap: .5em;
+    flex-direction: column;
+    
+}
+.repay-text span{
+    font-size: small;
+}
+.repay-button{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 2.3rem;
+    border-radius: 2em;
+}
+.repay-text p{
+    width: 70%;
+}
+.save{
+   background-color: rgba(126, 252, 0, 0.338);
+   border: 1px solid lawngreen;
+}
+
+.trans{
+    display: flex;
+    
+    
+
+}
+.trans-1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+
+}
+.search-con{
+    display: flex;
+    gap: 1em;
+}
+.search-con p{
+    width: 5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .2rem;
+    padding: .2em;
+}
+.search-con input{
+width: 12rem;
+padding: .5em;
+border: 1px solid black;
+border-radius: .2em;
+}
+.trans-2{
+    padding-block:1em ;
+    display: flex;
+    justify-content: space-between;
+}
+.in-out{
+    display: flex;
+    gap: 1em;
+
+}
+.trans-3,.trans-4,.trans-5{
+    padding-block: 1em;
+    display: flex;
+    gap: 10em;
+}
+table{
+    width: 100%;
+}
+tr th,tr,td{
+    padding: 1em;
+    text-align: left; 
+}
+tr th{
+
+    width: auto;
+}
+.success{
+    background-color: rgba(144, 238, 144, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3em;
+    border-radius: .4em;
+    width: 5.2rem;
+    
+}
+.failed{
+    background-color: rgba(238, 144, 144, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3em;
+    width: 4rem;
+    border-radius: .4em;
+    
+}
+.pending{
+    background-color: rgba(249, 208, 4, 0.454);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3em;
+    width: 5rem;
+    border-radius: .4em;
+    
+}
+.in-out span{
+    color: rgba(172, 170, 170, 0.747);
+}

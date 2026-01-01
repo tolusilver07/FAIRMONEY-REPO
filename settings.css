@@ -1,0 +1,205 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        .con{ 
+            display: flex;
+            width: 100%;
+        
+            height: 100vh;
+        }
+        .sec1{
+            background-color: white; 
+            width: 20%;  
+            height: 100%;     
+        
+        }
+        
+        .sec2{
+            width: 80%;
+            display: flex;
+            padding-inline: 1.5em;
+            flex-direction: column;
+flex-direction: column;
+
+        }
+.logo,.logout{
+    width: 100%;
+    height: 15%;
+    
+}
+.logo{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    border-bottom: .5px solid rgba(128, 128, 128, 0.537);
+    
+}
+.logo h4{
+    margin-left: .5em;
+}
+.logo span{
+    color: forestgreen;
+}
+.side-contents{
+    width: 100%;
+    padding-top: 3em;
+    height: 75%;
+    text-transform: capitalize;
+    
+}
+.side-contents ul,.logout ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 1em;
+    text-transform: capitalize;
+    
+}
+ul li{
+    font-size: .9rem;
+}
+.payment-top{
+    display: flex;
+    margin-block:1em ;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+.payment-top h3{
+    text-transform: capitalize;
+}
+.payment-middle{
+    display: flex;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+    gap: 3em;
+    
+    
+}
+.payment-bank{
+display: flex;
+flex-direction: column;
+}
+.payment-send,.payment-bill{
+    display: flex;
+    gap: .5em;
+    flex-direction: column;
+    
+
+}
+.payment-send p,.payment-bill p{
+    font-size: small;
+    color: rgba(128, 128, 128, 0.532);
+}
+
+.payment-last{
+    margin-block:1.5em;
+    display: flex;
+    margin-left: 1em;
+    flex-wrap: wrap;
+    gap: 3em;
+    width: 100%;
+
+
+}
+.pay{
+    color: rgb(76, 21, 147);
+    font-weight: 900;
+}
+.mode-profile ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+.acct-heading {
+    padding-block:.7em;
+}
+.account-div,.support{
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+}
+.setting-details{
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+.account-details-con{
+display: flex;
+gap:5em;
+
+
+}
+.account-details-con h3{
+    padding-block: .7em;
+}
+.account-details{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.account-details p{
+    margin-bottom: -.2em;
+}
+.acct-num{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7em;
+}
+.acct-num a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: .5em 1.5em;
+    border-radius: 1em;
+    justify-content: center;
+    align-items: center;
+}
+.acct-level{
+    padding: .5em;
+    display: flex;
+    gap: 1em;
+    background-color: rgba(255, 217, 0, 0.39);
+    border-radius: 1.5em;
+    align-items: center;
+    justify-content: space-between;
+}
+.acct-level .circle{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+    border: 4px solid gold;
+}
+
+.acct-level .level-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23rem;
+    gap: 1em;
+    
+
+}
+.level-text a{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    display: flex;
+    padding: .5em.9em;
+    text-decoration: none;
+    border-radius: 1em;
+
+}
